@@ -1,5 +1,0 @@
-echo off
-color 4
-cd C:\Users\mr_koks\eclipse-workspace_java\WeatherMonitor
-javac -Xlint:-options -classpath "C:\Users\mr_koks\eclipse-workspace_java\WeatherMonitor\bin;C:\Users\mr_koks\Documents\Java\libraries\jsoup-1.17.2.jar;C:\Users\mr_koks\Documents\Java\libraries\log4j-api-2.23.1.jar;C:\Users\mr_koks\Documents\Java\libraries\log4j-core-2.23.1.jar;C:\Users\mr_koks\Documents\Java\libraries\jfreechart-1.5.3.jar" -d . src\weather_monitor\WeatherMonitorMain.java src\weather_monitor\RunWeatherThreads.java src\weather_monitor\Frame.java
-java -classpath "C:\Users\mr_koks\eclipse-workspace_java\WeatherMonitor\bin;C:\Users\mr_koks\Documents\Java\libraries\jsoup-1.17.2.jar;C:\Users\mr_koks\Documents\Java\libraries\log4j-api-2.23.1.jar;C:\Users\mr_koks\Documents\Java\libraries\log4j-core-2.23.1.jar;C:\Users\mr_koks\Documents\Java\libraries\jfreechart-1.5.3.jar" weather_monitor.WeatherMonitorMain
