@@ -1,2 +1,7 @@
 /weather_monitor/
 /RunWeatherMonitorApp.bat
+bin/
+.settings
+.classpath
+weather_monitor/
+.project
